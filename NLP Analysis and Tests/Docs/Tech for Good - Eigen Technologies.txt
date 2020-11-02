@@ -1,0 +1,46 @@
+Overall Goal
+============
+To build a web application which can scan content online (e.g. news articles) and provide
+insights into the intent/sentiment behind them.
+In the world of mass media, it can be difficult to remain aware of the validity or intent behind the content you are consuming.
+
+Personas
+========
+User – Wants to get a better understanding of the content they are consuming online and
+whether it comes from reliable sources and/or has underlying biases.
+
+
+Features 
+As a User I want to be able to: 
+• Input a website URL or upload a document to be reviewed 
+[ANA] WEB SCRAPPING?????
+      Scan a whole page, or a specific piece of NEWS in a page?
+      Can the content can be diverse (e.g news articles, adverts, tweets, ...)?
+      USE OF RSSs????
+
+• View the output analysis
+[ANA] polarity score = [-1.0, 1.0] (neg/pos)
+      subjectivity score = [0.0, 1.0] (very obj/very subj)
+
+      suggestion: enter a word and get as a result all snippets of text 
+                  where it is found in the text? (*)
+      URL reliable - GATE Source CredibilitynAPI?
+      left-wing / right-wing => use of machine learning?
+      Cross-analysis of multiple documents === TOPIC CLASSIFICATION?
+                                           === or show in the same page their polarity score?
+
+=============================================
+###https://dzone.com/articles/how-related-your-documents-are-measure-document-si
+
+and cosine similarity are used most often. If you want to know more about this metric, you can view the DZone Refcard: Understanding Data Quality.
+
+These metrics have already been packaged and are ready to use in Python, like gensim and spaCy. I tried with both, however, the similarity measures from gensim seem better to me.
+
+
+================================================================================
+(*) CONTEXT SEARCH = prints the context where the word appears
+
+def context_search(file_dict, span, search_word, context_length):
+...                
+print("FABULOUS IN FIRST 700 POSITIVE REVIEWS:")
+print(context_search(pos, 700, "fabulous", 10))

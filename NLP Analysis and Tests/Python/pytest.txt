@@ -1,0 +1,44 @@
+PYTEST
+
+https://www.guru99.com/pytest-tutorial.html
+pip install pytest==2.9.1 
+py.test -h
+===================================================
+
+https://code.visualstudio.com/docs/python/testing
+
+<ctrl><shift><p> ==>> command pallette
+
+==>> https://www.youtube.com/watch?v=6baJ5t83820
+==>> to run unittest in vscode (python)
+
+Testing in Python is disabled by default. To enable testing, use the Python: Configure Tests command on the Command Palette. This command prompts you to select a test framework, the folder containing tests, and the pattern used to identify test files.
+
+  WARNING: The scripts py.test.exe and pytest.exe are installed in 'C:\Anaconda3\envs\ads9ldn\Scripts' which is not on PATH.
+
+https://github.com/microsoft/pylance-release/issues/52
+
+==============================
+
+$ where python
+C:\Anaconda3\python.exe
+C:\Users\ana\AppData\Local\Programs\Python\Python37-32\python.exe
+C:\Users\ana\AppData\Local\Microsoft\WindowsApps\python.exe
+
+$ pytest --version
+pytest 6.1.0
+
+==>> Place Python you want to be the default as the first one on the PATH
+
+$ PATH
+PATH=C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\apache-maven-3.6.3\bin;C:\Anaconda3\envs\ads9ldn\Scripts;C:\Anaconda3;C:\Users\ana\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\ana\AppData\Local\Programs\Python\Python37-32\;C:\Users\ana\AppData\Local\Microsoft\WindowsApps;C:\Users\ana\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Docker Toolbox;C:\Users\ana\AppData\Roaming\npm;C:\Program Files\apache-maven-3.6.3\bin;C:\Anaconda3\envs\ads9ldn\Scripts;
+
+===================================
+
+You will see a top half for the user variables and the bottom half for System variables.
+
+Check the System Variables and double-click on the Path(to edit the Path).
+
+Check for the path of Python(which you wish to run i.e. Python 2.x or 3.x) and move it to the top of the Path list.
+
+Restart the Command Prompt, and now when you check the version of Python, it should correctly display the required version.

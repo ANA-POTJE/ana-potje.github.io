@@ -1,0 +1,55 @@
+## Test
+import matplotlib
+import sklearn
+import spacy
+import en_core_web_sm
+import en_core_web_md
+
+====================================================================== 	
+# add your code here
+import requests
+
+url = "http://www.gutenberg.org/files/1024/1024.txt"
+raw = requests.get(url).text
+
+# add your code here
+print(type(raw))
+print(len(raw))
+print(raw[:75])
+===================================================================
+CONTEXT SEARCH = prints the context where the word appears
+
+def context_search(file_dict, span, search_word, context_length):
+...                
+print("FABULOUS IN FIRST 700 POSITIVE REVIEWS:")
+print(context_search(pos, 700, "fabulous", 10))
+
+
+=======================================================
+Binary classification: the case of sentiment analysis
+
+In this case, we treat sentiment analysis as a binary classification task: we consider only two categories – positive and negative. Since sentiment can be expressed as a value on scale and often is not strictly positive or strictly negative, the task can be solved using multi-class classification (e.g., positive/neutral/negative sentiment, or 1 to 5 stars), regression or ranking.
+=======================================================
+Unsupervised machine learning tasks: clustering
+
+what if you don't know the particular categories that exist in your data? Or what if you want to explore the inherent relations between the data points in your dataset?
+
+Machine learning approaches aimed at detecting similarities between data points without being specifically told which data points should be considered as similar (belonging to the same class) are called unsupervised machine learning approaches. Clustering is one of such approaches most widely used in practice.
+
+In this module, you will learn how to detect clusters in a set of documents based on the similarity of the documents content.
+
+K-means clustering algorithm
+
+
+
+
+data = [spacy_tokenizer(text) for (text, label) in all_reviews]
+# Let's convert labels into numerical values
+
+=============================================================
+
+You can find reviews similar in content and sentiment to yours by applying the similarity function to the whole review and finding the other review with the overall highest similarity score to the input one. 
+
+Python library SPACY - function Similarity score (content and sentiment)
+
+

@@ -1,0 +1,70 @@
+1) Media Bias/Fact Check
+https://mediabiasfactcheck.com/reporters-lab/
+
+The site has also been listed as a fact checking resource for some public libraries like the University of Massachusetts, California State University, University of Georgia and Lorain County Community College. [14] 
+
+Methodology
+Sites are rated on a 0-10 scale by Van Zandt and his team using categories such as biased wording and headlines, factuality and sourcing, and story choices.
+
+
+2) Reporters' Lab
+https://credibilitycoalition.org/credcatalog/funder/duke-reporters-lab/
+
+Duke Reporters' Lab
+“The Reporters’ Lab is a center for journalism research in the Sanford School of Public Policy at Duke University. Our core projects focus on fact-checking, but we also do occasional research about trust in the news media and other topics.” (Source: Website)
+
+3) https://blog.newstrust.net/
+(old website)
+
+###-------------------------------------------------------------
+### Source Credibility API - question
+###-------------------------------------------------------------
+
+Hello,
+Please can you let me know what are the "credibility-category" range of values and their meanings? For example, what does it mean category = "UNS" ?
+
+Please see below:
+           "credibility-resolved-url":"https://www.bbc.co.uk/news/education-54278053",
+            "credibility-domain":"bbc.co.uk",
+            "credibility-score":95,
+            "credibility-type":"known",
+            "credibility-color":"green",
+            "credibility-category":"UNS",
+            "credibility-source":"Media Bias/Fact Check",
+            "credibility-timestamp":20191001
+
+Many thanks!!!
+Ana Potje
+=================================================================
+Mark A. Greenwood <m.a.greenwood@sheffield.ac.uk>
+Thu 24/09/2020 11:50
+To: You; Ian Roberts
+The credibility-category label is a little undefined. Essentially we pass through any label provided by the original source (in your example Media Bias/Fact Check). There is no exhaustive list of what might be in that field as we are frequently adding new sources which may include new values. What I do know is that UNS meant unspecified. Other labels which I do know are present and which are a little more self explanatory are: left, left center, center, right center, right, pro science, Conspiracy, fake news, clickbait, Conservative, fake, Liberal, Satire, and unreliable. As you can see there is some overlap between these as we made no attempt to normalise them to a fixed set.
+
+Hope that helps,
+
+Mark
+
+
+================================================================
+Team, more good news today!
+I analysed that "Source Credibility" API (sources etc), some info below:
+
+1) The Source "Media Bias/Fact Check" seems the most reliable, we should use it if present otherwise use a different source that the API returns. By the way, all "famous" newspapers seems to have a rating in the "Media Bias/Fact Check" ;)
+
+2) It returns the credibility (0 to 100) and also the CATEGORY, which can be: Left Center, Unreliable, Conspiracy, Fake News, UNS (unspecified) ...
+
+So it seems we have more information to display in our front end: the CREDIBILITY CATEGORY and SOURCE!!
+The bbc.co.uk website has category UNS. I asked the question to their support team (answer attached). I can show more details tomorrow :)
+
+
+"https://metro.co.uk/"              => (82.5, 'Left Center', 'Media Bias/Fact Check')
+"https://www.thesun.co.uk/"         => (95.0, 'UNS', , 'Media Bias/Fact Check')
+"https://www.bbc.co.uk"             => (95.0, 'UNS', 'Media Bias/Fact Check')
+"http://foodbabe.com/"              => (25.0, 'unreliable', 'Human Assigned')
+"http://www.mercola.com/"           => (35.0, 'Conspiracy', 'Media Bias/Fact Check')
+
+"https://www.breitbart.com/europe/" => (49.5, 'Fake News', 'Media Bias/Fact Check')
+"https://socialistworker.co.uk/"    => -1
+"https://www.spiked-online.com/"    => -1
+"https://www.thecanary.co/"         => -1

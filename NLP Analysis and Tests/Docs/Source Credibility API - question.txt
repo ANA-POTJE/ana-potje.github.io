@@ -1,0 +1,30 @@
+Mark A. Greenwood <m.a.greenwood@sheffield.ac.uk>
+Thu 24/09/2020 11:50
+To: You; Ian Roberts
+
+The credibility-category label is a little undefined. Essentially we pass through any label provided by the original source (in your example Media Bias/Fact Check). There is no exhaustive list of what might be in that field as we are frequently adding new sources which may include new values. What I do know is that UNS meant unspecified. Other labels which I do know are present and which are a little more self explanatory are: left, left center, center, right center, right, pro science, Conspiracy, fake news, clickbait, Conservative, fake, Liberal, Satire, and unreliable. As you can see there is some overlap between these as we made no attempt to normalise them to a fixed set.
+
+Hope that helps,
+
+Mark
+
+On 24/09/2020 11:41, Ian Roberts wrote:
+
+-------- Forwarded Message --------
+Subject:  GATE Cloud: [Contact] Source Credibility API - question
+Date:	  Thu, 24 Sep 2020 11:19:21 +0100 (BST)
+From:	  GATE Cloud Suport <cloud@gate.ac.uk>
+Reply-To: anabbarreto@hotmail.com
+To:	  team@gatecloud.net
+
+From:	anabbarreto@hotmail.com
+Subject: Source Credibility API - question
+Registered User: ID:936, 
+Username: anapotje, 
+Email: anabbarreto@hotmail.com
+
+Hello, Please can you let me know what are the "credibility-category" range of values and their meanings? For example, what does it mean category = "UNS" ? Please see below: "credibility-resolved-url":"https://www.bbc.co.uk/news/education-54278053", "credibility-domain":"bbc.co.uk", "credibility-score":95, "credibility-type":"known", "credibility-color":"green", "credibility-category":"UNS", "credibility-source":"Media Bias/Fact Check", "credibility-timestamp":20191001 
+Many thanks
+Ana Potje
+
+The GATE Cloud team.

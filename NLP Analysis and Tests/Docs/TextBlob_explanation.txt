@@ -1,0 +1,8 @@
+https://www.analyticsvidhya.com/blog/2018/02/natural-language-processing-for-beginners-using-textblob
+
+https://www.kdnuggets.com/2018/08/emotion-sentiment-analysis-practitioners-guide-nlp-5.html
+
+TextBlob uses an "Unsupervised lexicon-based approach" to calculate the sentiment. It uses knowledgebases, ontologies, databases, and lexicons with detailed information, specially prepared just for sentiment analysis. A lexicon is a "a book of words". They are special dictionaries or vocabularies that have been created for analyzing sentiments. Most of these lexicons have a list of positive and negative polar words with some score associated with them, and using various techniques like the position of words, surrounding words, context, parts of speech, phrases, and so on, scores are assigned to the text documents for which we want to compute the sentiment. After aggregating these scores, we get the final sentiment.
+
+
+

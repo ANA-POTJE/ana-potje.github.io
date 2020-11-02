@@ -1,0 +1,16 @@
+Generic Opinion Mining
+
+A generic sentiment analysis pipeline for English text. The pipeline identifies sentences containing basic positive and negative opinions, and includes basic entity detection. It creates an annotation for every opinionated sentence, with features denoting:
+
+- the polarity of the opinion (positive or negative)
+- a score denoting the opinion strength
+- a broad classification of the emotion expressed by the sentence
+- an optional reference to the entity acting as the target of the opinion
+- a feature denoting presence of sarcasm
+- linguistic features such as whether the sentence is a question, conditional, imperative etc.
+
+It also averages the sentiment over the whole document and provides an indication of standard deviation.
+
+The pipeline is designed for use on good quality longer texts such as news articles or reviews.
+
+https://cloud.gate.ac.uk/shopfront/displayItem/generic-opinion-mining-english

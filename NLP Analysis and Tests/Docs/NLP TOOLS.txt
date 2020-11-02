@@ -1,0 +1,11 @@
+1) Textblob = great for sentiment analysis, returns "polarity" and "subjectivity" of a text.
+           polarity score = range [-1.0, 1.0] (negative / positive)
+           subjectivity score = range [0.0, 1.0] (very objective / very subjective)
+
+= extras: definition of a word (dictionary); translate text to another language; language detection; spelling correction; shows a frequency of a specific word in the text.
+If we are using Python as a programming language, TextBlob seems to be very straightfoward to implement.
+
+2) Amazon Comprehend = amazing tool but seems to be a package itself, not sure if it can be used inside our app ... (?)
+
+3) GATE Source Credibility = possibly it has what we want in terms of identifying if the URL is reliable etc, but it is an API to be called from our APP - any takers?
+https://cloud.gate.ac.uk/shopfront/displayItem/source-credibility
