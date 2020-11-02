@@ -9,6 +9,6 @@ Code submitted in  Python language<br />
 https://www.codewars.com/users/ANA-POTJE
 
 ## Sentimentalists APP: 
-Completed the Programme "Your Return to Tech" in October/2020.
+Completed the Programme "Your Return to Tech" in October/2020.<br />
 The APP "The Sentimentalists - Analysing Media Sentiment Since 2020" was delivered as a final project, I was responsible for the app backend solution:
 [The Sentimentalists](https://thesentimentalists.github.io)
