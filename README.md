@@ -12,3 +12,6 @@ https://www.codewars.com/users/ANA-POTJE
 Completed the Programme "Your Return to Tech" in October/2020.<br />
 The APP "The Sentimentalists - Analysing Media Sentiment Since 2020" was delivered as a final project, I was responsible for the app backend solution:
 [The Sentimentalists](https://thesentimentalists.github.io)
+
+## NLP Analysis and Tests:
+Folder containing all studies, docs and Python coding tests performed for the "THE SENTIMENTALISTS" APP backend solution creation.
