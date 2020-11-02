@@ -8,6 +8,10 @@ https://ana-potje.github.io/
 Code submitted in  Python language<br /> 
 https://www.codewars.com/users/ANA-POTJE
 
+## HackerRank profile: 
+SQL Gold Badge and Python Silver Badge<br /> 
+https://www.hackerrank.com/Ana_Potje
+
 ## Sentimentalists APP: 
 Completed the Programme "Your Return to Tech" in October/2020. The APP "The Sentimentalists - Analysing Media Sentiment Since 2020" was delivered as a final project, I was responsible for the app backend solution. Please check the link to the APP below:<br />
 [The Sentimentalists](https://thesentimentalists.github.io)
