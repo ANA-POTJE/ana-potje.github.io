@@ -5,7 +5,7 @@ https://drive.google.com/file/d/10a_jqZkILbvRNrpcX9cNZ8rHl6HKROsS/view?ths=true
 https://ana-potje.github.io/
 
 ## CodeWars profile: 
-Code submitted in  Python language
+Code submitted in  Python language<br />
 https://www.codewars.com/users/ANA-POTJE
 
 ## Sentimentalists APP: 
