@@ -1,0 +1,25 @@
+https://builtin.com/data-science/high-level-guide-natural-language-processing-techniques
+
+NLP is a sub-field of artificial intelligence that is focused on enabling computers to understand and process human languages, to get computers closer to a human-level understanding of language.
+
+3 main technical approaches in NLP
+
+1) RULE-BASED METHODS
+Rule-based approaches were the earliest types of all AI algorithms. In fact, they dominated computer science as a whole before we thought of automating everything with Machine Learning. The essence of a rule-based algorithm is simple:
+
+(1) Define a set of rules which describe all the different aspects of your tasks, in this case language
+
+(2) Specify some sort of order or weight combination of those rules to make a final decision
+
+(3) Apply this formula made up of that fixed set of rules to each and every input in the same way
+
+
+2) CLASSICAL MACHINE LEARNING
+Another approach to teaching machines how to understand language is to build a classical machine learning model. The idea is to train a model “end-to-end” with some data that is represented using some user-defined features. Similar to the rule-based approach, such feature design can be quite natural:
+
+3) DEEP LEARNING
+Using deep learning for NLP will almost always get you higher accuracy. The draw back is that the tend to be much slower than rule-based and classical machine learning methods. They can take seconds to run and will require some GPU compute.
+
+https://www.toolbox.com/tech/artificial-intelligence/tech-101/what-is-the-difference-between-artificial-intelligence-machine-learning-and-deep-learning/
+
+Deep learning is an even more specialized form of machine learning, as it directly emulates the architecture of the human brain to learn from data. Structures such as artificial and convolutional neural networks are copies of how the brain is structured in a digital format, to replicate the patterns of neurons and the connections between them.
