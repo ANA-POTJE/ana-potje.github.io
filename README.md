@@ -12,6 +12,9 @@ https://www.codewars.com/users/ANA-POTJE
 SQL Gold Badge and Python Silver Badge<br /> 
 https://www.hackerrank.com/Ana_Potje
 
+## Kaggle profile:
+https://www.kaggle.com/anapotje
+
 ## Sentimentalists APP: 
 Completed the Programme "Your Return to Tech" in October/2020. The APP "The Sentimentalists - Analysing Media Sentiment Since 2020" was delivered as a final project, I was responsible for the app backend solution. Please check the link to the APP below:<br />
 [The Sentimentalists](https://thesentimentalists.github.io)
