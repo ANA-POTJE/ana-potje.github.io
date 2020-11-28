@@ -9,7 +9,7 @@ Code submitted in  Python language<br />
 https://www.codewars.com/users/ANA-POTJE
 
 ## HackerRank profile: 
-Python and SQL Gold Badges<br /> 
+Python, SQL and 30 Days of code Gold Badges<br /> 
 https://www.hackerrank.com/Ana_Potje
 
 ## Kaggle profile:
