@@ -4,13 +4,13 @@ https://drive.google.com/file/d/10a_jqZkILbvRNrpcX9cNZ8rHl6HKROsS/view?ths=true
 ## SW Engineer Portfolio page:
 https://ana-potje.github.io/
 
-## CodeWars profile: 
-Code submitted in  Python language<br /> 
-https://www.codewars.com/users/ANA-POTJE
-
 ## YourAcclaim badges: 
 Snowflake, Cloud and Big Data badges<br /> 
 https://www.youracclaim.com/users/ana-beatriz-barreto-ribeiro-potje/badges
+
+## CodeWars profile: 
+Code submitted in  Python language<br /> 
+https://www.codewars.com/users/ANA-POTJE
 
 ## HackerRank profile: 
 Python, SQL and 30 Days of code Gold Badges<br /> 
