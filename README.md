@@ -8,6 +8,10 @@ https://ana-potje.github.io/
 Code submitted in  Python language<br /> 
 https://www.codewars.com/users/ANA-POTJE
 
+## YourAcclaim badges: 
+Snowflake, Cloud and Big Data badges<br /> 
+https://www.youracclaim.com/users/ana-beatriz-barreto-ribeiro-potje/badges
+
 ## HackerRank profile: 
 Python, SQL and 30 Days of code Gold Badges<br /> 
 https://www.hackerrank.com/Ana_Potje
